@@ -1,18 +1,26 @@
 {
-  "name": "gulp-sass",
+  "name": "intro-gulp-sass-starter",
   "version": "1.0.0",
   "description": "",
   "main": "gulp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskidz99/intro-gulp-sass-starter.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cskidz99/intro-gulp-sass-starter/issues"
+  },
+  "homepage": "https://github.com/cskidz99/intro-gulp-sass-starter#readme",
   "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-cachebust": "^0.0.6",
+    "gulp-cachebust": "0.0.6",
+    "gulp-concat": "^2.6.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0"
   }

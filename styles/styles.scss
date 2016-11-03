@@ -1,3 +1,14 @@
+$mainColor: teal;
+$secondaryColor: salmon;
+
+body {
+  background-color: $mainColor;
+}
+
+.germs {
+  background-color: $secondaryColor;
+}
+
 .name {
     font-size: 22px;
 }
